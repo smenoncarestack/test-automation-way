@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_cs-Login-buttonBlue</name>
+   <tag></tag>
+   <elementGuidId>afa43dae-7fe0-4e85-b9aa-2905b99e9206</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit'][count(. | //*[@value = 'Log In']) = count(//*[@value = 'Log In'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cs-Login-buttonBlue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Log In</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class-list</name>
+      <type>Main</type>
+      <value>cs-Login-buttonBlue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>function</name>
+      <type>Main</type>
+      <value>Submit(login.$valid)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;cs-App&quot;]/div[@class=&quot;cs-LoginWindow&quot;]/div[@class=&quot;cs-Login&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength&quot;]/ul[@class=&quot;cs-Login-buttonGroupWrapper&quot;]/li[1]/input[@class=&quot;cs-Login-buttonBlue&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

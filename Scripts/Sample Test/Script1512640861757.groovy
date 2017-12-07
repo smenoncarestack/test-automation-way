@@ -19,3 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser("https://celebration.qa1.carestackqa.com")
+WebUI.setText(findTestObject('Object Repository/Page_CareStack - Login/input_username'), "shrikanth")
+WebUI.setText(findTestObject('Object Repository/Page_CareStack - Login/input_password'), "Abc@123")
+WebUI.closeBrowser()
